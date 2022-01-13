@@ -1,0 +1,145 @@
+/*--------------------------------------------------------------------------------------------*/
+/* Geral - Início */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333333;
+    color: white;
+}
+body a{
+    color: lightgrey;
+}
+body a:hover{
+    color: lightgrey;
+}
+/* Geral - Fim */
+
+/*--------------------------------------------------------------------------------------------*/
+
+/* Cabeçalho - Início */
+.cabecalho{
+    background-color: #2e2e2e;
+}
+.cabecalho ul li a{
+    color: lightgrey;
+}
+.cabecalho ul li a:hover{
+    color: grey;
+}
+/* Cabeçalho - Fim */
+
+/*--------------------------------------------------------------------------------------------*/
+
+/* Main - Início */
+.main{
+    padding-top: 30px;
+    background-color: #333333;
+}
+
+/*---------------------------------------*/
+
+/* Usuário - Início */
+#foto img{
+    max-width: 60%;
+    margin-left: 100px;
+}
+#usuario{
+    color: lightgrey;
+    
+    padding: 25px;
+    min-height:100%;
+    margin-bottom: 20px;
+}
+#usuario a{
+    display: block;
+    text-decoration: none;
+    
+    margin-bottom: 5px;
+}
+#usuario .nome{
+    font-size: 2.0em;
+    font-weight: bold;
+}
+#usuario .login{
+    color: grey;
+}
+/* Usuário - Fim */
+
+/*---------------------------------------*/
+
+/* Repositórios - Início */
+#rep{
+    background-color: #1e1f20;
+    margin-top: 50px;
+    padding: 35px;
+}
+#rep2{
+    color: lightgrey;
+    font-size: 2.5em;
+}
+#rep .reposBox{
+    background-color: #2e2e2e;
+    margin-top: 15px;
+    padding: 25px;
+}
+#rep .reposBox a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+#rep .reposBox p{
+    color: lightgrey;
+}
+/* Repositórios - Fim */
+
+/*---------------------------------------*/
+
+/* Pesquisa - Início */
+#pesq{
+    background-color: #1e1f20;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+#pesq2{
+    color: lightgrey;
+    font-size: 2.5em;
+}
+#pesq .pesqMaximo{
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+#pesqMaximo{
+    width: 40px;
+}
+#pesqResultados .card{
+    background-color: #2e2e2e;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+#pesqResultados .card-body a{
+    background-color: gray;
+}
+#pesqResultados .card-body a:hover{
+    background-color: lightgrey;
+}
+/* Pesquisa - Início */
+/* Main - Fim*/
+
+/*--------------------------------------------------------------------------------------------*/
+
+/* Rodapé - Início */
+.rodape{
+    background-color: #2e2e2e;
+    padding: 10px;
+    text-align: center;
+}
+/* Rodapé - Fim */
+
+@media screen and (max-width: 600px){
+  #foto img{
+    max-width: 60%;
+    margin-left: 70px;
+  }
+}
+
+/*--------------------------------------------------------------------------------------------*/
